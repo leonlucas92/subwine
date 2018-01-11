@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500|Open+Sans:400,600,700i');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Dosis', sans-serif;
+}
+
+button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+    color: #fff;
+    border: 1px solid;
+    padding: 6px 12px 6px 12px;
+    border-radius: 3px;
+    margin: 12px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.5s ease-out;
+}
+button:active{
+	transition: 0.1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    box-shadow: inset 0px 2px 0px 2px #607d8b36;
+}
+
+.btn-01{
+	background-color: #00BCD4;
+}
+.btn-01:hover{
+    background-color: transparent;
+    color: #00BCD4;
+}
+
+.btn-02{
+	background-color: #3f51b5;
+}
+.btn-02:hover{
+    background-color: transparent;
+    color: #3f51b5;
 }
